@@ -1,6 +1,7 @@
 class PreExistingConditionsController < ApplicationController
   before_action :set_patient
   before_action :set_pre_existing_condition, only: %i[show edit update destroy]
+  before_action :authenticate_doctor!, only: %i[new edit create update]
 
   # GET patients/1/pre_existing_conditions
   def index
