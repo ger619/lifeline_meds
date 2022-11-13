@@ -17,7 +17,7 @@ class Patient < ApplicationRecord
                      action: 'show',
                      id: id,
                      only_path: false,
-                     host: 'localhost:3000',
+                     host: 'https://arsenaltop.herokuapp.com/',
                      source: 'from_qr')
     qrcode = RQRCode::QRCode.new(qr_url)
 
@@ -26,7 +26,7 @@ class Patient < ApplicationRecord
       resize_exactly_to: false,
       fill: 'white',
       color: 'black',
-      size: 120,
+      size: 250,
       border_modules: 4,
       module_px_size: 6,
       file: nil # path to write
