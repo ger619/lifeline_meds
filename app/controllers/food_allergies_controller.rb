@@ -1,6 +1,7 @@
 class FoodAllergiesController < ApplicationController
   before_action :set_patient
   before_action :set_food_allergy, only: %i[show edit update destroy]
+  before_action :authenticate_doctor!, only: %i[new edit create update]
 
   # GET patients/1/food_allergies
   def index
