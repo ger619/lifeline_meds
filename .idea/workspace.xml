@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24b2fd3d-e30c-49c3-ae64-628351d64bfe" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/app/controllers/pre_existing_conditions_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/pre_existing_conditions_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/lifeline_meds.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lifeline_meds.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +30,10 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ToolWindowDatabase Changes.ShowToolbar": "false",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/ger/Desktop/fork/lifeline_meds",
+    "last_opened_file_path": "/Users/queenshebaachieng/Desktop/Rails/lifeline_meds",
     "nodejs_package_manager_path": "npm",
     "ruby.rails.projectView.checked": "true"
   }
@@ -131,7 +138,7 @@
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="24b2fd3d-e30c-49c3-ae64-628351d64bfe" name="Changes" comment="" />
@@ -141,6 +148,7 @@
       <updated>1668305802233</updated>
       <workItem from="1668305812350" duration="9205000" />
       <workItem from="1668337816272" duration="2206000" />
+      <workItem from="1669640042147" duration="1500000" />
     </task>
     <servers />
   </component>
